@@ -9,7 +9,7 @@ if (temPao === 'sim') {
 }
 
 if (idadeDoUsuario >= 18) {
-    alert('Olá ' + nomeDoUsuario + ' você é maior de idade. Pode entrar');
+    alert(`Olá  + ${nomeDoUsuario} +  você é maior de idade. Pode entrar`);
 } else {
-    alert('Olá ' + nomeDoUsuario + ' você é menor de idade. Não pode entrar');
+    alert(`Olá ${nomeDoUsuario}  você é menor de idade. Não pode entrar`);
 }

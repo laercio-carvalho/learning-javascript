@@ -6,16 +6,15 @@ let saldoDisponivel = 1000;
 alert('Erro! Preencha todos os Campos!')
 let mensagemDeErro = 'Erro! Preencha todos os Campos!';
 alert(mensagemDeErro);
-alert('A '+ nome + ' de ' + idade + ' anos fez ' + numeroDeVendas
-    + ' vendas e tem: ' + saldoDisponivel + 'R$ de Saldo');
+alert(`A ${nome} de ${idade} anos fez ${numeroDeVendas} vendas e tem: ${saldoDisponivel} R$ de Saldo`);
 
 nome = prompt('Digite seu nome: ');
 idade = prompt('Digite sua idade: ');
 
 if (idade >= 18 ) {
-    alert(nome + ' Pode tirar a habilitação')
+    alert(`${nome} Pode tirar a habilitação`)
 } else {
-    alert(nome + ' Não pode tirar a habilitação');
+    alert(`${nome} Não pode tirar a habilitação`);
 }
 
 
