@@ -4,9 +4,9 @@ let numeroSecreto = 29;
 let chute = prompt('Digite um numero entre 1 e 30');
 
 if (chute == numeroSecreto) {
-    console.log('Isso aí! Você descobriu o número secreto(29)!');
+    alert(`Isso aí! Você descobriu o número secreto(${numeroSecreto})!`);
 }else {
-    console.log('Você errou o numero secreto!');
+    alert('Você errou!')
 }
 
 let mensagemDeBoasVindas = 'Boas vindas ao App';
