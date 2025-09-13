@@ -1,69 +1,45 @@
-README.md
+# 🎮 Jogo do Número Secreto
 
-# Bem-vindo ao projeto "Jogo do Número Secreto"! 🎮
+Bem-vindo ao jogo do número secreto! Separei abaixo as informações mais importantes sobre o projeto.
 
-## Projeto
-Este é um simples jogo em que o usuário deve adivinhar um número secreto gerado aleatoriamente entre 1 e 10. O código está escrito em JavaScript puro e utiliza seleção de elementos com querySelector.
+## ⚠️ Overview
+O jogo é uma simples aplicação que desafia os jogadores a adivinharem um número aleatório entre 1 e 10. O objetivo é acertar o número em poucas tentativas!
 
-## Funcionalidades ✨
-• Gera um número aleatório inicialmente
-• Exibe texto na tela usando uma função modular
-• Verifica se o chute do usuário é correto ou não
-• Fornece feedback imediato ao usuário
+## 🎯 Funcionalidades Principais
 
-## Uso 🎮
-1. Copie o código para um arquivo .html
-2. Abra o arquivo em um navegador
-3. Escolha um número entre 1 e 10
-4. Verifique se acertou ou errou
+• 🔍 Sistema de chute do usuário
+• 🔄 Gerador automático de números secretos
+• ⏳ Contagem de tentativas
+• 🔁 Botão para reiniciar o jogo
 
-## Exemplo Antigo vs Novo
-Antigo:
-`javascript
-let titulo = document.querySelector('h1');
-titulo.innerHTML = 'Jogo do número secreto';
-`
+## 💻 Requisitos de Instalação
 
-Novo (recomendado):
-`javascript
-function exibirTextoNaTela(tag, texto) {
-const campo = document.querySelector(tag);
-campo.innerHTML = texto;
-}
+Para executar o jogo, você precisará:
 
-exibirTextoNaTela('h1', 'Jogo do número secreto');
-`
+1. Uma navegador moderno (recomendado: Chrome ou Firefox)
 
-## Arquivo Principal 📄
-O código principal está no arquivo index.html, que inclui:
-• Geração de número aleatório
-• Função para exibição de texto
-• Lógica para verificar chutes
+## 🎮 Como Jogar?
 
-## Exemplos de Uso Modernos 🔥
-`javascript
-// Em vez de:
-function verificarChute() {
-let chute = document.querySelector('input').value;
-if (chute == numeroSecreto) {
-alert('Você acertou!');
-} else {
-alert('Você errou!');
-}
-}
+1. Abra o arquivo index.html em seu navegador.
+2. Escolha um número entre 1 e 10.
+3. Clique no botão "Chutar" para verificar se você acertou ou não.
+4. Use as dicas fornecidas (número maior ou menor) para ajustar sua próxima tentativa.
+5. Quando acertar, poderá reiniciar o jogo clicando em "Novo Jogo".
 
-// Use:
-const verificarChute = () => {
-const chute = parseFloat(document.querySelector('input').value);
-alert(chute === numeroSecreto ? 'Acertou!' : 'Errou!');
-};
-`
+## 📝 Notas:
 
-## Boas Práticas para Desenvolvedores ✨
-• Modularização: Separe suas funções em módulos independentes
-• Utilize Promises/Axios: Para requisições HTTP
-• Adicione CSS: Melhore a aparência do jogo
-• Event Listeners: Em vez de inline HTML
-• TypeScript: Adote para tipagem estática
+• O número secreto é gerado aleatoriamente assim que o jogo inicia. 
+• O botão de novo jogo só será habilitado após acertar.
 
-Sinta-se livre para contribuir ou personalizar o código! 🚀
+## 💡 Contribuições
+
+Contribua com o projeto! 🚀
+Sinta-se à vontade para:
+• Melhorar a interface
+• Adicionar mais funcionalidades
+• Corrigir bugs
+• Traduzir para outros idiomas
+
+## 📄 Licença
+
+Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
